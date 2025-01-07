@@ -6,10 +6,10 @@ print(s[6])
 # substrings
 print(s[1:4])
 print(s[1:1])
-print(s[:-2])    #starts at the beginning
+print(s[:-2])  #starts at the beginning
 print(s[3:-1])
 print(s[0:-3])
-print(s[-3:])     #stop at the end
+print(s[-3:])  #stop at the end
 
 # useful functions
 print(len(s))
@@ -29,6 +29,7 @@ print(word1 > word2)
 print(word1 == word2)
 print(word1 <= word2)
 
+
 def get_first_chunk(s):
     #write some code to return
     #all the letters up to the first
@@ -42,4 +43,3 @@ print(get_first_chunk("hello@world"))
 print(get_first_chunk("welcome@back@yall"))
 print(get_first_chunk("noatsigns"))
 print(get_first_chunk("@howdy@@everyone@@@"))
-
