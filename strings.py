@@ -6,10 +6,10 @@ print(s[6])
 # substrings
 print(s[1:4])
 print(s[1:1])
-print(s[:-2])  #starts at the beginning
+print(s[:-2])  # starts at the beginning
 print(s[3:-1])
 print(s[0:-3])
-print(s[-3:])  #stop at the end
+print(s[-3:])  # stop at the end
 
 # useful functions
 print(len(s))
@@ -31,8 +31,8 @@ print(word1 <= word2)
 
 
 def get_first_chunk(s):
-    #write some code to return
-    #all the letters up to the first
+    # write some code to return
+    # all the letters up to the first
     # @ in the string
     # if @ is the first thing, return "done"
     # if there are no @s, return "DONE"
